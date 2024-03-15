@@ -12,7 +12,6 @@ a6d94340d290   ubuntu                                       "/bin/bash"         
 421d69a9e13e   001df529ae3a                                 "dotnet TechAppWebAp…"   8 months ago   Exited (0) 8 months ago    127.0.0.1:32768->80/tcp   techappwebapi
 ab8a451174ff   mcr.microsoft.com/mssql/server:2022-latest   "/opt/mssql/bin/perm…"   8 months ago   Exited (0) 8 months ago    0.0.0.0:8002->1433/tcp    techappwebapiDB
 
-
 PS C:\Users\victor.ndulue> docker image ls
 REPOSITORY                          TAG           IMAGE ID       CREATED        SIZE
 ubuntu                              latest        e34e831650c1   2 months ago   77.9MB
