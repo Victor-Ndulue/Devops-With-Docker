@@ -1,0 +1,24 @@
+PS C:\Users\victor.ndulue> docker ps -a
+CONTAINER ID   IMAGE                                        COMMAND                  CREATED        STATUS                     PORTS
+     NAMES
+8ec6d47b4afb   devopsdockeruh/simple-web-service:ubuntu     "/usr/src/app/server"    2 weeks ago    Exited (2) 2 weeks ago
+     secretMsgExc
+b6d29d3b0b8a   devopsdockeruh/simple-web-service            "/usr/src/app/server"    3 weeks ago    Exited (137) 3 weeks ago
+     devopsWithDocker
+e6c608498590   ubuntu                                       "/bin/bash"              3 weeks ago    Exited (137) 3 weeks ago
+     magical_davinci
+a6d94340d290   ubuntu                                       "/bin/bash"              3 weeks ago    Exited (0) 3 weeks ago
+     funny_lewin
+421d69a9e13e   001df529ae3a                                 "dotnet TechAppWebAp…"   8 months ago   Exited (0) 8 months ago    127.0.0.1:32768->80/tcp   techappwebapi
+ab8a451174ff   mcr.microsoft.com/mssql/server:2022-latest   "/opt/mssql/bin/perm…"   8 months ago   Exited (0) 8 months ago    0.0.0.0:8002->1433/tcp    techappwebapiDB
+
+
+PS C:\Users\victor.ndulue> docker image ls
+REPOSITORY                          TAG           IMAGE ID       CREATED        SIZE
+ubuntu                              latest        e34e831650c1   2 months ago   77.9MB
+<none>                              <none>        001df529ae3a   8 months ago   234MB
+techappwebapi                       dev           8563d2f85e18   8 months ago   212MB
+mcr.microsoft.com/dotnet/aspnet     7.0           df2150380ed1   8 months ago   212MB
+mcr.microsoft.com/mssql/server      2022-latest   05ce0918105b   9 months ago   1.58GB
+devopsdockeruh/simple-web-service   ubuntu        4e3362e907d5   3 years ago    83MB
+devopsdockeruh/simple-web-service   latest        99f995eeaa58   3 years ago    10.1MB
