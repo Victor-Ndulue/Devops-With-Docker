@@ -1,8 +1,20 @@
 
 PS C:\Users\victor.ndulue> docker ps -a
-CONTAINER ID   IMAGE                                        COMMAND                  CREATED              STATUS                      PORTS                     NAMES
-1f5e4ee99ce3   nginx                                        "/docker-entrypoint.…"   About a minute ago   Up About a minute           80/tcp                    nginxContainer3
-f41129c12e2b   nginx                                        "/docker-entrypoint.…"   About a minute ago   Exited (0) 28 seconds ago
-            nginxContainer2
-726103b378f1   nginx                                        "/docker-entrypoint.…"   2 minutes ago        Exited (0) 42 seconds ago
-            nginxContainer1
+CONTAINER ID   IMAGE                                        COMMAND                  CREATED          STATUS                      PORTS
+        NAMES
+1f5e4ee99ce3   nginx                                        "/docker-entrypoint.…"   31 minutes ago   Up 31 minutes               80/tcp
+        nginxContainer3
+f41129c12e2b   nginx                                        "/docker-entrypoint.…"   32 minutes ago   Exited (0) 30 minutes ago
+        nginxContainer2
+726103b378f1   nginx                                        "/docker-entrypoint.…"   32 minutes ago   Exited (0) 31 minutes ago
+        nginxContainer1
+8ec6d47b4afb   devopsdockeruh/simple-web-service:ubuntu     "/usr/src/app/server"    2 weeks ago      Exited (2) 2 weeks ago
+        secretMsgExc
+b6d29d3b0b8a   devopsdockeruh/simple-web-service            "/usr/src/app/server"    3 weeks ago      Exited (137) 3 weeks ago
+        devopsWithDocker
+e6c608498590   ubuntu                                       "/bin/bash"              3 weeks ago      Exited (137) 3 weeks ago
+        magical_davinci
+a6d94340d290   ubuntu                                       "/bin/bash"              3 weeks ago      Exited (0) 3 weeks ago
+        funny_lewin
+421d69a9e13e   001df529ae3a                                 "dotnet TechAppWebAp…"   8 months ago     Exited (0) 8 months ago     127.0.0.1:32768->80/tcp   techappwebapi
+ab8a451174ff   mcr.microsoft.com/mssql/server:2022-latest   "/opt/mssql/bin/perm…"   8 months ago     Exited (0) 8 months ago     0.0.0.0:8002->1433/tcp    techappwebapiDB
