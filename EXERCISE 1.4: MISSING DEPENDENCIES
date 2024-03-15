@@ -1,0 +1,10 @@
+Commands:
+Command 1=> PS C:\Users\victor.ndulue> docker run -it --name ubuntu ubuntu
+Command 2=> root@e804fa69e76c:/# apt-get update
+Command 3=> root@e804fa69e76c:/# apt-get -y install nano
+Command 4=> root@e804fa69e76c:/# apt-get -y install curl
+command 5=> root@e804fa69e76c:/# sh -c "while true; do echo 'Input website:'; read website; echo 'Searching..'; sleep 1; curl http://www.$website; done"
+Result: Input website:
+helsinki.fi
+Searching..
+<html><head><title>Error</title></head><body><h1>Internal Server Error</h1></body></html>Input website:
